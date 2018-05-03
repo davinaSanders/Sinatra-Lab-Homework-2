@@ -1,0 +1,58 @@
+  body {
+  background-color: FireBrick;
+  font-family: 'Indie Flower', cursive;
+  margin: 10em;
+  font-size: 1.5em;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  nav {
+    text-align: center;
+  }
+
+  input[type=submit], input[type=reset] {
+    background-color: Orange;
+    border: 0.1em outset #C0C0C0;
+    color: Black;
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+    margin: 0.2em 0.4em;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+  #reset, #resetnew {
+    background-color: Pink;
+  }
+
+  #edit {
+    background-color: Pink;
+
+  }
+
+  .orders {
+    border: 0.1em outset Orange;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+  a:visited {
+  color: Orange;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a:link{
+    color: Black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+  color: Pink;
+  background-color: transparent;
+  text-decoration: none;
+  }

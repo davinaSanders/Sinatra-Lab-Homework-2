@@ -1,0 +1,21 @@
+<p> Please edit order below </p>
+<form method="post" action="/pizza_orders/<%= @order.id %>">
+  <fieldset>
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first-name" value="<%= @order.first_name %>">
+    <label for="last_Name">Last Name:</label>
+    <input type="text" name="last_name" id="last-name" value="<%= @order.last_name %>">
+  </fieldset>
+  <fieldset>
+    <label for="pizza-select"> Select Pizza</label>
+    <select id="pizza-select" name="topping">
+      <option value="Margherita">Margherita</option>
+      <option value="Calzone1">Calzone1</option>
+      <option value="Calzone2">Calzone2</option>
+    </select>
+    <label for="quantity">Quantity</label>
+    <input type="number" name="quantity" id="quantity" value="<%= @order.quantity %>">
+    </fieldset>
+    <input type="submit" value="Update">
+    <input id="reset" type="reset" value="Reset">
+</form>
